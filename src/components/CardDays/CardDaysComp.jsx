@@ -1,14 +1,14 @@
 import './CardDaysStyle.css';
 
-export const CardDaysComp = () => {
+export const CardDaysComp = ({day, temperature, img}) => {
 
     // const days = []
 
   return (
     <div className="card-day">
-        <p>Sun</p>
-        <img src="" alt="Sol" />
-        <p>18°</p>
+        <p>{day}</p>
+        <img src={img} alt="Sol" />
+        <p>{temperature}</p>
     </div>
   )
 }
