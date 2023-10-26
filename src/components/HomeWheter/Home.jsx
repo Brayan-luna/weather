@@ -1,13 +1,16 @@
 import React from "react";
-import PartOne from "./partOne";
-import {CardDaysComp} from '../CardDays/CardDaysComp';
-import './Home.css'
+import PartOne from "./PartOne/partOne";
+import {CardDaysComp} from '../CardDays/CardDaysComp'
+
 function Home(){
     return(
         <section className="sectionHome">
-            <PartOne/>
             <CardDaysComp/>
+            <div className="dark:bg-neutral-900 dark:text-white divContainer"> 
+                <PartOne/>
+            </div>            
         </section>
     )
 }
+
 export default Home

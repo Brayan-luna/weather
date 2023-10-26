@@ -2,7 +2,7 @@ import './CardDaysStyle.css';
 
 export const CardDaysComp = () => {
 
-    const days = []
+    // const days = []
 
   return (
     <div className="card-day">
